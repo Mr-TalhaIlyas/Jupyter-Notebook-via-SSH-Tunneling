@@ -35,13 +35,13 @@ span.autosave_status { display: block !important; font-size: small; }
 Simply put you are just adding the `display: block !important;` in every line to show the above missing elements in the notebook.
 One drawback is that you have to follow this step everytime  you change theme.
 
-So you can also try the following mehtod
+So you can also try the following **mehtod 2**
 
 navigate to  `.jupyterthemes/layout/notebook.less` and
 
 remove this
-`div#ipython_notebook { display: none; }`
+```div#ipython_notebook { display: none; }```
 
 and change
-`pan.autosave_status { font-size: small; }`
+```pan.autosave_status { font-size: small; }```
 
