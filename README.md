@@ -1,8 +1,6 @@
 # Jupyter-Notebook-via-SSH-Tunneling
 
-You need to install termius or putty then follwo the steps in following video.
-
-https://www.youtube.com/watch?v=RsLDwDCIDcM
+You need to install [termius](https://www.termius.com/windows) or [putty](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html) then follwo the steps in following [video](https://www.youtube.com/watch?v=RsLDwDCIDcM).
 
 
 ## Jupyter Themes
