@@ -45,3 +45,21 @@ remove this
 and change
 ```pan.autosave_status { font-size: small; }```
 
+To change logo in of JP notebook add this in 
+
+`C:\Users\YourUsername\Anaconda3\Lib\site-packages\notebook\static\custom\custom.css`
+`.juypter/custom`
+
+```
+#ipython_notebook img {                                                                                        
+    display:block;	
+    background: url("rv_full.png") no-repeat;
+    background-size: contain;
+    width: 100px;
+    height: 95px;
+    padding-left: 200px;
+    padding-right: 50px;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+```
